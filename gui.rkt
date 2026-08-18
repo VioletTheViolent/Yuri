@@ -9,6 +9,6 @@
   #:title "I love yuririiiiiii"
   #:size window-size
   (image "yuri.png"
-        #:size '(2560 1440)
+        #:size '(360 360)
         #:mode 'fill
         )))
