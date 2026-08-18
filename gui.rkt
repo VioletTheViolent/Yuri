@@ -1,0 +1,14 @@
+#lang racket
+(require racket/draw)
+(require racket/gui/easy)
+
+(define window-size '(360 360))
+
+(render
+ (window
+  #:title "I love yuririiiiiii"
+  #:size window-size
+  (image "yuri.png"
+        #:size '(2560 1440)
+        #:mode 'fill
+        )))

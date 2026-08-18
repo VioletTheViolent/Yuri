@@ -1,0 +1,11 @@
+#lang racket
+
+(require racket/gui/easy)
+
+(render
+ (window
+  #:title "I love yuririiiiiii"
+  #:size '(360 360)
+  (canvas (λ (dc)
+            ;; i love yuri
+            (defin img (read-bitmap "
